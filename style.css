@@ -208,7 +208,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(img/test3.jpg);
+	background-image: url(./img/test3.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -299,7 +299,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/mini.jpg);
+	background-image: url(./img/maintainc.jpg);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -313,10 +313,10 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: 0.9;
 	z-index: -1;
 }
+
 #services .service-bottom .icon {
 	height: 80px;
 	width: 80px;
@@ -329,18 +329,132 @@ p {
 	text-transform: uppercase;
 }
 #services .service-item p {
-	color: white;
+	color: White;
 	text-align: left;
 }
 /* End Services Section */
 
 
-/*Maintenance*/
+/*Intallation*/
+#services .service-item2 {
+	flex-basis: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(./img/install.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	
+}
+#services .service-item2::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0.9;
+	z-index: -1;
+}
 
-/*Installation*/
+#services .service-item2 h2 {
+	font-size: 2rem;
+	color: white;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+#services .service-item2 p {
+	color: white;
+	text-align: left;
+}
+
+/*Sells*/
+#services .service-item3 {
+	flex-basis: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(./img/Miniser.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	
+}
+
+
+#services .service-item3::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0.9;
+	z-index: -1;
+}
+
+#services .service-item3 h2 {
+	font-size: 2rem;
+	color: white;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+#services .service-item3 p {
+	color: white;
+	text-align: left;
+}
 
 
 /*Duct*/
+#services .service-item4 {
+	flex-basis: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(./img/duct33.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	
+}
+
+#services .service-item4 h2 {
+	font-size: 2rem;
+	color: white;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+#services .service-item4 p {
+	color: white;
+	text-align: left;
+}
+#services .service-item4::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0.9;
+	z-index: -1;
+}
+
 
 /* Projects section */
 #projects .projects {
@@ -404,6 +518,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
+
 	opacity: 0.7;
 }
 #projects .project-img img {
@@ -711,6 +826,20 @@ p {
 	/* End header */
 
 	#services .service-bottom .service-item {
+		flex-basis: 22%;
+		margin: 1.5%;
+	}
+	#services .service-bottom .service-item2 {
+		flex-basis: 22%;
+		margin: 1.5%;
+	}
+
+	#services .service-bottom .service-item3 {
+		flex-basis: 22%;
+		margin: 1.5%;
+	}
+
+	#services .service-bottom .service-item4 {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
